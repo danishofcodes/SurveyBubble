@@ -28,7 +28,7 @@ export const questions = [
     feedbackquestion: "Which domains of work do you usually use SurveyBubble for?",
     type: "checkbox",
     name: 'domainaffecting',
-    options: ["Getting Feedback From Students", "Getting feedback from clients/customers", "Getting Feedbacks from Employees", "Market Research and Opinion Polls", "Product or Service Concept Testing"],
+    options: ["Feedback From Students", "Feedback from clients/customers", "Feedbacks from Employees", "Market Research and Opinion Polls", "Product/Service Concept Testing"],
   },
 
   {
