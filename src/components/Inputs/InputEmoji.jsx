@@ -6,7 +6,7 @@ export default function InputEmoji({ option, name, handleRadioChange, formData, 
         <label htmlFor={option}>
             <div className="flex justify-center flex-col items-center">
           <input type="radio" id={option} name={name} value={option} onChange={handleRadioChange} className='me-2' checked={option == formData[name]} />
-          <img src={emojiimg} alt={option} />
+          <img  className="h-[60px] sm:h-[65px]  md:[90px] lg:h-[100px]" src={emojiimg} alt={option} />
           <span className={`text-[#0492af] font-medium ${option === formData[name] ? 'text-[#ff8c34]' : ''}`}>{option}</span>
           </div>
         </label>

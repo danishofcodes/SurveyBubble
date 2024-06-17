@@ -1,6 +1,6 @@
 {
-  "homepage":"https://github.com/danishofcodes/surveyfeeds/",
-  "name": "surveyfeeds",
+  "homepage":"https://github.com/danishofcodes/feedbacksurveyor/",
+  "name": "feedbacksurveyor",
   "private": true,
   "version": "0.0.0",
   "type": "module",
