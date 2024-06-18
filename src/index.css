@@ -264,6 +264,10 @@ max-height: 35em;
 .actionbuttonsec{
   display: flex;
   justify-content: center;
+  background: #3cb0c826;
+    backdrop-filter: blur(3px);
+    position: sticky;
+    bottom: 0; 
 }
 
 
