@@ -102,13 +102,13 @@ function App() {
           <div className="iconsec">
             <FontAwesomeIcon icon={faComment} />
           </div>
-          <h2 className="roboto-light ">Surveyfeeds</h2>
+          <h2 className="roboto-light ">SurveyBubble</h2>
         </div>
 
 
         <div className='flex items-center iconsec'>
-          <img src={reactImg} alt="" />
           {/* this field can be used for company logo */}
+          <img src={reactImg} alt="" />
           <p className='font-bold text-[#fff] ms-1'>React JS</p>
         </div>
       </div>
