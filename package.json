@@ -1,5 +1,5 @@
 {
-  "homepage":"https://github.com/danishofcodes/surveybubble/",
+  "homepage": "https://github.com/danishofcodes/surveybubble/",
   "name": "surveybubble",
   "private": true,
   "version": "0.0.0",
@@ -13,16 +13,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@eslint/config-array": "^0.16.0",
+    "@eslint/object-schema": "^2.1.4",
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
     "@fortawesome/free-regular-svg-icons": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "lru-cache": "^10.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@vitejs/plugin-react": "^4.2.1",
@@ -31,6 +33,7 @@
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3",
     "vite": "^5.2.0"
